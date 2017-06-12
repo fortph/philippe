@@ -1,0 +1,1 @@
+function attention(message){var buttonText="Ok";var div=$("<div>");div.html(message);div.attr("title","RASPBERRI PI");div.dialog({autoOpen:true,modal:true,draggable:false,resizable:false,buttons:[{text:buttonText,click:function(){$(this).dialog("close");div.remove();}}]});}

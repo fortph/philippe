@@ -1,0 +1,160 @@
+@CHARSET "UTF-8"; 
+
+body {
+	background-color: #C9FFF3;
+	padding-top: 55px;
+	margin-bottom: 60px;
+}
+
+.
+perso input {
+	display: inline-block;
+	width: 100%;
+}
+
+.dropdown-submenu {
+	position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+	top: 0;
+	left: 100%;
+	margin-top: -6px;
+	margin-left: -1px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+	display: block;
+}
+
+.dropdown-submenu:hover>a:after {
+	border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+	float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+	left: -100%;
+	margin-left: 10px;
+}
+
+.menud {
+	background-color: white;
+	padding: 1%;
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	padding-top: 15px;
+	width: 100%;
+	text-align: center;
+	height: 60px;
+	margin-top: 5%;
+	background-color: #f5f5f5;
+}
+
+h1 {
+	margin-top: 2%;
+	margin-bottom: 2%;
+	margin-left: 5%;
+	margin-right: 5%;
+	font-variant: small-caps;
+	text-shadow: 2px 2px 0 red;
+	text-decoration: blink;
+	text-align: center;
+}
+
+p {
+	margin: 5%;
+	font-size: 130%;
+	margin-bottom: 10%;
+	font-variant: capitalize;
+}
+
+.texte {
+	margin-top: 1%;
+	background-color: #FFF5FF;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.reste * {
+	margin-left: 5px;
+	background-color: white;
+	font-size: 130%;
+	padding: 1%;
+}
+
+.espace {
+	padding: 2%;
+	margin: 7%;
+}
+
+.soustitre {
+	font-size: 200%;
+	font-weight: bold;
+	font-variant: small-caps;
+	margin-left: 2%;
+}
+
+.soustitre1 {
+	font-size: 180%;
+	font-weight: bold;
+	font-variant: small-caps;
+	margin-left: 1%;
+}
+
+.bloc {
+	background-color: #F7DBF2;
+	margin-top: 1%;
+	padding-top: 1%;
+	font-size: 140%;
+	color: blue;
+}
+
+.bloc1 {
+	background-color: #F7DBF2;
+	padding-left: 3%;
+	font-size: 140%;
+	padding-bottom: 7%;
+}
+
+.bloc2 {
+	background-color: #F7DBF2;
+	padding-left: 10%;
+	font-size: 140%;
+}
+
+.bloc33 a {
+	color: red;
+	padding-left: 10%;
+	font-size: 140%;
+}
+
+.bloc33 {
+	padding-left: 10%;
+	font-size: 140%;
+}
+
+.centre {
+	text-align: center;
+}
+
+.bloc4 {
+	background-color: #F7DBF2;
+	margin-top: 1%;
+	font-size: 140%;
+	color: blue;
+	line-height: 190%;
+}
+
+.video {
+	margin-bottom: 8%;
+	margin-top: 2%;
+	padding-bottom: 2%;
+}
