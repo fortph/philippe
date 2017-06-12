@@ -3,7 +3,11 @@ package beans.ai;
 import java.util.Date;
 
 import beans.identite.Identite;
-
+/**
+ * 
+ * @author philippe fort
+ *
+ */
 public class Agrement {
 	private int id_aifiche;
 	private Identite identite;
